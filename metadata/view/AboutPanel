@@ -1,0 +1,33 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "aboutpanel",
+        "designer|userClassName": "AboutPanel",
+        "requires": [
+            "Ext.TitleBar"
+        ]
+    },
+    "name": "MyPanel",
+    "designerId": "bcdfbe6b-ddfa-404f-a245-2e2167358731",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "За автора"
+            },
+            "name": "MyTitleBar",
+            "designerId": "be68f06e-2f28-4e70-aabf-a53db58bd251"
+        }
+    ]
+}
