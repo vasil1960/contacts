@@ -1868,7 +1868,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.Element-static": "../../touch/src/dom/Element.static.js",
   "Ext.Element-style": "../../touch/src/dom/Element.style.js",
   "Ext.Element-traversal": "../../touch/src/dom/Element.traversal.js",
-  "Ext.cmd": "../../../../Users/vasil/bin/Sencha/Cmd/6.1.1.76/plugins/src",
+  "Ext.cmd": "../../../../Users/vtsig_000/bin/Sencha/Cmd/6.1.1.76/plugins/src",
   "Ext.core.DomQuery": "../../touch/src/dom/Query.js",
   "Ext.device.Purchases.Product": "../../touch/src/device/purchases/Sencha.js",
   "Ext.device.filesystem.DirectoryEntry": "../../touch/src/device/filesystem/Sencha.js",

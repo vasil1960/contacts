@@ -25,7 +25,7 @@ Ext.define('Contacts.view.SearchResultUserList', {
         emptyText: 'Няма данни',
         store: 'SearchJsonPStore',
         itemTpl: [
-            '<div>{Titla} {Name} {Prezime} {Familia}</div><div>{Podelenie}</div><div>{Dlagnost}, тел. {GSM}</div><div>{Email}</div>'
+            '<div><h1>{Titla} {Name} {Prezime} {Familia}</h1></div><div><p>{Podelenie}</p></div><div><p>{Dlagnost}, тел. {GSM}</p></div><div><p>{Email}</p></div>'
         ]
     }
 

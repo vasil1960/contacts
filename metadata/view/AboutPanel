@@ -28,6 +28,34 @@
             },
             "name": "MyTitleBar",
             "designerId": "be68f06e-2f28-4e70-aabf-a53db58bd251"
+        },
+        {
+            "type": "Ext.Img",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 201,
+                "src": "resources/images/logo.png"
+            },
+            "name": "MyImg2",
+            "designerId": "442bb49f-9bbe-4c8f-9cdd-73e84ae45977"
+        },
+        {
+            "type": "Ext.Img",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 201,
+                "src": "resources/images/author.png"
+            },
+            "name": "MyImg3",
+            "designerId": "59a23868-fd72-42bd-affa-a1453d82cb76"
         }
     ]
 }

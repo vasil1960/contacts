@@ -18,7 +18,8 @@ Ext.define('Contacts.view.AboutPanel', {
     alias: 'widget.aboutpanel',
 
     requires: [
-        'Ext.TitleBar'
+        'Ext.TitleBar',
+        'Ext.Img'
     ],
 
     config: {
@@ -27,6 +28,16 @@ Ext.define('Contacts.view.AboutPanel', {
                 xtype: 'titlebar',
                 docked: 'top',
                 title: 'За автора'
+            },
+            {
+                xtype: 'image',
+                height: 201,
+                src: 'resources/images/logo.png'
+            },
+            {
+                xtype: 'image',
+                height: 201,
+                src: 'resources/images/author.png'
             }
         ]
     }

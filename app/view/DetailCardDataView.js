@@ -24,7 +24,7 @@ Ext.define('Contacts.view.DetailCardDataView', {
     config: {
         store: 'DetailCardJsonPStore',
         itemTpl: [
-            '<div>{Titla} {Name} {Prezime} {Familia}</div><div>{Dlagnost}, тел. {GSM}</div><div>{Email}</div>'
+            '<div><h1>{Titla} {Name} {Prezime} {Familia}</h1></div><div><p>{Dlagnost}, тел. {GSM}</p></div><div><p>{Email}</p></div>'
         ]
     }
 

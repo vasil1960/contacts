@@ -7,7 +7,8 @@
     "codeClass": null,
     "userConfig": {
         "basePath": "touch/",
-        "designer|userClassName": "Library"
+        "designer|userClassName": "Library",
+        "theme": "ContactsTheme"
     },
     "name": "Library",
     "designerId": "5b22cd0d-0365-4a7f-943a-5f2ab0abfcc6"
