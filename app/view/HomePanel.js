@@ -32,14 +32,9 @@ Ext.define('Contacts.view.HomePanel', {
             {
                 xtype: 'image',
                 docked: 'top',
-                height: 201,
+                height: 519,
                 hidden: false,
-                src: 'resources/images/logo.png'
-            },
-            {
-                xtype: 'image',
-                height: 201,
-                src: 'resources/images/text.png'
+                src: 'resources/images/home.png'
             }
         ]
     }

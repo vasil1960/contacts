@@ -53,7 +53,9 @@ Ext.application({
         'PodUserList',
         'RdgList',
         'RdgNavView',
-        'SearchFormPanel'
+        'SearchFormPanel',
+        'Main',
+        'AboutPanel'
     ],
     controllers: [
         'CallController',
@@ -61,7 +63,8 @@ Ext.application({
         'MenuController',
         'PodController',
         'RdgController',
-        'SearchController'
+        'SearchController',
+        'CallMenuController'
     ],
     name: 'Contacts',
 

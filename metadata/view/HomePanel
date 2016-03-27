@@ -35,28 +35,13 @@
             "codeClass": null,
             "userConfig": {
                 "docked": "top",
-                "height": 201,
+                "height": 519,
                 "hidden": false,
                 "padding": null,
-                "src": "resources/images/logo.png"
+                "src": "resources/images/home.png"
             },
             "name": "MyImg",
             "designerId": "02ae9660-a90e-4c56-9563-b34e6051e610"
-        },
-        {
-            "type": "Ext.Img",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "height": 201,
-                "src": "resources/images/text.png",
-                "width": null
-            },
-            "name": "MyImg1",
-            "designerId": "8482b293-4431-40fc-ae28-67b21fb25d9a"
         }
     ]
 }

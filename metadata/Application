@@ -12,7 +12,8 @@
             "MenuController",
             "PodController",
             "RdgController",
-            "SearchController"
+            "SearchController",
+            "CallMenuController"
         ],
         "models": [
             "LoginModel",
@@ -47,7 +48,9 @@
             "PodUserList",
             "RdgList",
             "RdgNavView",
-            "SearchFormPanel"
+            "SearchFormPanel",
+            "Main",
+            "AboutPanel"
         ]
     },
     "name": "Application",

@@ -53,7 +53,7 @@
                 "itemId": "homepanel",
                 "title": "Начало"
             },
-            "name": "homepanel",
+            "name": "homepanel1",
             "designerId": "2c74dab3-dafd-4935-8368-49a485629860",
             "masterInstanceId": "3c17862f-1792-4709-a6c3-c0ffaec2e517"
         },
@@ -70,7 +70,7 @@
                 "itemId": "iagnavview",
                 "title": "ИАГ"
             },
-            "name": "iagnavview",
+            "name": "iagnavview1",
             "designerId": "34b18089-9423-4c14-98e8-efbdf1132207",
             "masterInstanceId": "d44471af-bed4-4fa2-b5de-23ee5ddc8b5e",
             "cn": [
@@ -105,7 +105,7 @@
                 "itemId": "rdgnavview",
                 "title": "РДГ"
             },
-            "name": "rdgnavview",
+            "name": "rdgnavview1",
             "designerId": "0d5b4f7f-dee1-4432-9d71-a05c06a91a9c",
             "masterInstanceId": "aabe069e-7825-48a2-bff0-01e56fa2478d",
             "cn": [
@@ -140,7 +140,7 @@
                 "itemId": "podnavview1",
                 "title": "Поделения"
             },
-            "name": "podnavview",
+            "name": "podnavview1",
             "designerId": "24f0bed7-e62e-423e-a7b2-8289bf47f500",
             "masterInstanceId": "d7210567-c6c9-41d6-bb1b-27ae8d6b892b",
             "cn": [
@@ -174,24 +174,9 @@
                 "iconCls": "search",
                 "title": "Търсене"
             },
-            "name": "searchnavview",
+            "name": "searchnavview1",
             "designerId": "62d394a0-9385-4303-adc2-6c132392a146",
             "masterInstanceId": "157e5b7d-d9ed-4a6b-93df-10e8e10d89a2"
-        },
-        {
-            "type": "linkedinstance",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "iconCls": "user",
-                "title": "За автора"
-            },
-            "name": "aboutpanel",
-            "designerId": "29df4cd7-cb2d-4c8d-96b3-7c06086fc085",
-            "masterInstanceId": "bcdfbe6b-ddfa-404f-a245-2e2167358731"
         },
         {
             "type": "basicfunction",

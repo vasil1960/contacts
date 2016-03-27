@@ -132,7 +132,7 @@
                 ],
                 "fn": "callAndEmailFn",
                 "implHandler": [
-                    " Ext.Viewport.setMasked(false);",
+                    "Ext.Viewport.setMasked(false);",
                     "",
                     "var gsm = record.get('GSM'),",
                     "    email = record.get('Email'),",
@@ -154,7 +154,7 @@
                     "",
                     "    title: fullname,",
                     "    message: this.changeMessageTextAndQuestion(gsm, email, text),",
-                    "    width: 350,",
+                    "    width: 320,",
                     "    buttons:[",
                     "        { text: 'Избери',    itemId: 'call', hidden: this.hideButton(gsm) },",
                     "        { text: 'Email',  itemId: 'email', hidden: this.hideButton(email) },",
@@ -165,6 +165,7 @@
                     "",
                     "        if (buttonId == 'call'){",
                     "            document.location.href = 'tel:'+record.get('GSM');",
+                    "            //document.open('tel:'+record.get('GSM'), '_system');",
                     "        } else if (buttonId == 'email'){",
                     "            document.location.href = 'mailto:'+record.get('Email');",
                     "        } else if (buttonId == 'cancel'){",
@@ -236,6 +237,82 @@
             },
             "name": "changeMessageTextAndQuestion",
             "designerId": "a4d71388-cc7c-4db1-afe7-c71d50ca8c8d"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|params": [
+                    "record"
+                ],
+                "fn": "callPhoneFn",
+                "implHandler": [
+                    "document.location.href = 'tel:'+record.get('GSM');"
+                ]
+            },
+            "name": "callPhoneFn",
+            "designerId": "11b9442a-c216-4938-a559-3cc2780c0dc7"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "iaguserlist",
+                "designer|targetType": "IagUserList",
+                "fn": "onListItemDoubletap",
+                "implHandler": [
+                    "this.callPhoneFn(record);"
+                ],
+                "name": "itemdoubletap"
+            },
+            "name": "onListItemDoubletap",
+            "designerId": "4fa10cc5-ac7d-4ecd-ad93-8c422acceefd"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "poduserlist",
+                "designer|targetType": "PodUserList",
+                "fn": "onPodUsrListItemDoubletap",
+                "implHandler": [
+                    "this.callPhoneFn(record);"
+                ],
+                "name": "itemdoubletap"
+            },
+            "name": "onPodUsrListItemDoubletap",
+            "designerId": "d0b72cf6-1ae7-4a27-9d41-b65cb4d0930a"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "searchresultuserlist",
+                "designer|targetType": "SearchResultUserList",
+                "fn": "onSearchListItemDoubletap",
+                "implHandler": [
+                    "this.callPhoneFn(record);"
+                ],
+                "name": "itemdoubletap"
+            },
+            "name": "onSearchListItemDoubletap",
+            "designerId": "71cd518c-dfc7-4abc-aa15-17dbb70d1263"
         }
     ]
 }

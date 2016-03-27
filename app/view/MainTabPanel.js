@@ -23,12 +23,12 @@ Ext.define('Contacts.view.MainTabPanel', {
         'Contacts.view.RdgNavView',
         'Contacts.view.PodNavView',
         'Contacts.view.SearchNavView',
-        'Contacts.view.AboutPanel',
         'Ext.tab.Bar',
         'Ext.Panel',
         'Ext.navigation.View',
         'Ext.MessageBox',
-        'Ext.LoadMask'
+        'Ext.LoadMask',
+        'Contacts.view.AboutPanel'
     ],
 
     config: {
@@ -65,11 +65,6 @@ Ext.define('Contacts.view.MainTabPanel', {
                 xtype: 'searchnavview',
                 title: 'Търсене',
                 iconCls: 'search'
-            },
-            {
-                xtype: 'aboutpanel',
-                title: 'За автора',
-                iconCls: 'user'
             }
         ],
         listeners: [

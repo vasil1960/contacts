@@ -22,7 +22,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.Element-static": "touch/src/dom/Element.static.js",
   "Ext.Element-style": "touch/src/dom/Element.style.js",
   "Ext.Element-traversal": "touch/src/dom/Element.traversal.js",
-  "Ext.cmd": "../../Users/vtsig_000/bin/Sencha/Cmd/6.1.1.76/plugins/src",
+  "Ext.cmd": "../../bin/Sencha/Cmd/6.1.1.76/plugins/src",
   "Ext.core.DomQuery": "touch/src/dom/Query.js",
   "Ext.device.Purchases.Product": "touch/src/device/purchases/Sencha.js",
   "Ext.device.filesystem.DirectoryEntry": "touch/src/device/filesystem/Sencha.js",
@@ -38,6 +38,7 @@ Ext.Loader.addClassPathMappings({
 
 Ext.ClassManager.addNameAlternateMappings({
   "Contacts.controller.CallController": [],
+  "Contacts.controller.CallMenuController": [],
   "Contacts.controller.LoginController": [],
   "Contacts.controller.MenuController": [],
   "Contacts.controller.PodController": [],
@@ -60,6 +61,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Contacts.view.IagNavView": [],
   "Contacts.view.IagUserList": [],
   "Contacts.view.LoginPanel": [],
+  "Contacts.view.Main": [],
   "Contacts.view.MainTabPanel": [],
   "Contacts.view.MenuPanel": [],
   "Contacts.view.NoConnectionPanel": [],
@@ -699,6 +701,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Contacts.controller.CallController": [
     "controller.callcontroller"
   ],
+  "Contacts.controller.CallMenuController": [
+    "controller.callmenucontroller"
+  ],
   "Contacts.controller.LoginController": [],
   "Contacts.controller.MenuController": [
     "controller.menucontroller"
@@ -739,7 +744,7 @@ Ext.ClassManager.addNameAliasMappings({
     "store.searchjsonpstore"
   ],
   "Contacts.view.AboutPanel": [
-    "widget.aboutpanel"
+    "widget.anoutpanel"
   ],
   "Contacts.view.DetailCardDataView": [
     "widget.detailcarddataview"
@@ -757,6 +762,9 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.iaguserlist"
   ],
   "Contacts.view.LoginPanel": [],
+  "Contacts.view.Main": [
+    "widget.main"
+  ],
   "Contacts.view.MainTabPanel": [
     "widget.maintabpanel"
   ],

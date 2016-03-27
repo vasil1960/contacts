@@ -35,13 +35,16 @@ Ext.define('Contacts.controller.CallController', {
 
         control: {
             "iaguserlist": {
-                itemsingletap: 'onIagListItemSingletap'
+                itemsingletap: 'onIagListItemSingletap',
+                itemdoubletap: 'onListItemDoubletap'
             },
             "poduserlist": {
-                itemsingletap: 'onPodListItemSingletap'
+                itemsingletap: 'onPodListItemSingletap',
+                itemdoubletap: 'onPodUsrListItemDoubletap'
             },
             "searchresultuserlist": {
-                itemsingletap: 'onSearchResultListItemSingletap'
+                itemsingletap: 'onSearchResultListItemSingletap',
+                itemdoubletap: 'onSearchListItemDoubletap'
             }
         }
     },
@@ -61,8 +64,20 @@ Ext.define('Contacts.controller.CallController', {
         this.callAndEmailFn(record);
     },
 
+    onListItemDoubletap: function(dataview, index, target, record, e, eOpts) {
+        this.callPhoneFn(record);
+    },
+
+    onPodUsrListItemDoubletap: function(dataview, index, target, record, e, eOpts) {
+        this.callPhoneFn(record);
+    },
+
+    onSearchListItemDoubletap: function(dataview, index, target, record, e, eOpts) {
+        this.callPhoneFn(record);
+    },
+
     callAndEmailFn: function(record) {
-         Ext.Viewport.setMasked(false);
+        Ext.Viewport.setMasked(false);
 
         var gsm = record.get('GSM'),
             email = record.get('Email'),
@@ -84,7 +99,7 @@ Ext.define('Contacts.controller.CallController', {
 
             title: fullname,
             message: this.changeMessageTextAndQuestion(gsm, email, text),
-            width: 350,
+            width: 320,
             buttons:[
                 { text: 'Избери',    itemId: 'call', hidden: this.hideButton(gsm) },
                 { text: 'Email',  itemId: 'email', hidden: this.hideButton(email) },
@@ -95,6 +110,7 @@ Ext.define('Contacts.controller.CallController', {
 
                 if (buttonId == 'call'){
                     document.location.href = 'tel:'+record.get('GSM');
+                    //document.open('tel:'+record.get('GSM'), '_system');
                 } else if (buttonId == 'email'){
                     document.location.href = 'mailto:'+record.get('Email');
                 } else if (buttonId == 'cancel'){
@@ -130,6 +146,10 @@ Ext.define('Contacts.controller.CallController', {
             alert('Има някаква грешка');
         }
 
+    },
+
+    callPhoneFn: function(record) {
+        document.location.href = 'tel:'+record.get('GSM');
     }
 
 });

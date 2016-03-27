@@ -8,9 +8,9 @@
         },
         "canvasControls": {
             "viewportSize": {
-                "name": "iPhone",
+                "name": "iPhone 5",
                 "builtIn": true,
-                "height": 480,
+                "height": 568,
                 "width": 320
             },
             "viewportOrientation": "portrait"
@@ -39,7 +39,6 @@
     "framework": "touch24",
     "viewOrderMap": {
         "view": [
-            "bcdfbe6b-ddfa-404f-a245-2e2167358731",
             "58bdc1f9-aaca-45f5-8423-25d4b942c947",
             "3c17862f-1792-4709-a6c3-c0ffaec2e517",
             "ecd1b18a-4a40-496c-9575-3ee0455906de",
@@ -57,7 +56,9 @@
             "aabe069e-7825-48a2-bff0-01e56fa2478d",
             "9cff690f-ede2-4b37-b09a-834a89c04e5e",
             "157e5b7d-d9ed-4a6b-93df-10e8e10d89a2",
-            "dfd9f0cf-6f52-4a7c-8fbf-eeea6342075f"
+            "dfd9f0cf-6f52-4a7c-8fbf-eeea6342075f",
+            "da7fe6ca-1064-4fea-ad80-6681ba9f34c2",
+            "b966fbea-9f21-4445-a0fc-89d649a76097"
         ],
         "store": [
             "a8bbaf7b-70b7-4754-8e5b-f89ed57a54b1",
@@ -74,7 +75,8 @@
             "e0de98da-b0a7-497d-a9ef-5c4078e18832",
             "7cde9594-7ccf-4058-90ea-34acace3fc43",
             "fb7ef09e-f476-4560-9f96-826d60b5d382",
-            "0a9509fc-9064-4153-94b8-13582abe2f80"
+            "0a9509fc-9064-4153-94b8-13582abe2f80",
+            "36d180df-2a5b-4c40-86a0-ad8102ce1e7d"
         ],
         "model": [
             "c2e0147e-907e-40f4-b9d9-5906df32fe43",
@@ -91,7 +93,13 @@
             "6b1f222b-0dd5-4dea-a850-802ddb4e340b",
             "c9e42a17-82e6-4933-8e0e-3249e866c2fa",
             "2d5668ef-c464-441e-bc00-ba48a611c5fe",
-            "b3867f21-9169-4a28-b4b7-5ebb849bcb3e"
+            "b3867f21-9169-4a28-b4b7-5ebb849bcb3e",
+            "c1a6e84c-28df-4d1e-9d22-ae33182c58df",
+            "eeedad2b-5ce1-4937-bda2-89efa43532d3",
+            "378386a0-8dcf-4b08-9291-11f467d154a1",
+            "1f785ba3-d325-42af-a6c6-c87b16dfb88b",
+            "ac6171c5-2917-485f-9624-7944e6e13c1e",
+            "819a6be1-b0f6-4186-8927-aab6b3a55fe6"
         ],
         "app": [
             "application"
