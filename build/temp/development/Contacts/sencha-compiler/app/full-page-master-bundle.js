@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /Users/vasiltsigov/Code/contacts/app.js
+// @require C:\Code\contacts\app.js
