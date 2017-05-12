@@ -592,23 +592,18 @@
     },
     "tabState": {
         "openTabs": [
-            "f0a1509d-fef7-459c-a4da-1ac5661f7398",
-            "7a1e0a52-ca08-44e6-a927-af3d94f0b9cf",
-            "da7fe6ca-1064-4fea-ad80-6681ba9f34c2",
-            "3c17862f-1792-4709-a6c3-c0ffaec2e517",
-            "36d180df-2a5b-4c40-86a0-ad8102ce1e7d",
-            "a08aa1c5-385f-48cb-8815-f2bc22c5c0c5",
-            "d44471af-bed4-4fa2-b5de-23ee5ddc8b5e",
-            "b966fbea-9f21-4445-a0fc-89d649a76097"
+            "31d758f2-11d6-4224-83fd-6461404547b1"
         ]
     },
     "canvasState": {
-        "topInstance": "da7fe6ca-1064-4fea-ad80-6681ba9f34c2"
+        "topInstance": null
     },
     "inspectorState": {
-        "topInstance": null,
-        "selectedInstance": null
+        "topInstance": "31d758f2-11d6-4224-83fd-6461404547b1",
+        "selectedInstance": "843fd927-c4fd-4884-b337-b2a2d34bfd30"
     },
-    "editMode": "design",
-    "userSettings": {}
+    "editMode": "code",
+    "userSettings": {
+        "no-cmd": false
+    }
 }

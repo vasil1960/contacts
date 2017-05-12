@@ -1,19 +1,21 @@
 {
-   "builds": {
-      "web": {
-         "default": true
-      },
-      "native": {
-         "packager": "cordova",
-         "cordova": {
-            "config": {
-               "id": "com.domain.Contacts",
-               "name": "Contacts",
-               "platforms": "android"
+    "builds": {
+        "web": {"default": true},
+        "native": {
+            "packager": "cordova",
+            "cordova" : {
+                "config": {
+                    // Uncomment the line below and add the platforms you wish to build for
+                    "platforms": "ios android",
+
+                    "id": "bg.iag.Contacts",
+                    "name": "Kintakti"
+                }
             }
-         }
-      }
-   },
+        }
+    },
+
+                
    "name": "Contacts",
    "indexHtmlPath": "index.html",
    "framework": "touch",
@@ -68,5 +70,5 @@
       "enable": true,
       "deltas": "deltas"
    },
-   "id": "c65fdef9-ad15-435e-99b1-d2a8efbb46a0"
+   "id": "daf0b0bd-fece-4f0c-8364-2135d108b21b"
 }

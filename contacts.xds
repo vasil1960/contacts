@@ -3,19 +3,19 @@
     "settings": {
         "cmd": {
             "license": "commercial",
-            "cmdVersion": "6.1.1.76",
+            "cmdVersion": "6.2.1.29",
             "frameworkVersion": "2.4.2.571"
         },
         "canvasControls": {
             "viewportSize": {
-                "name": "iPhone 5",
+                "name": "iPhone 6 Plus",
                 "builtIn": true,
-                "height": 568,
-                "width": 320
+                "height": 736,
+                "width": 414
             },
             "viewportOrientation": "portrait"
         },
-        "urlPrefix": "http://localhost:1841",
+        "urlPrefix": "http://localhost:1841/",
         "exportPath": "",
         "spacesToIndent": 4,
         "sdkPath": "",
@@ -25,15 +25,15 @@
         "buildShouldOverwriteIndex": true,
         "generateArchitectVersion": true,
         "projectHasEnabledWebServer": true,
-        "lastBuildSelection": {
-            "value": "emulate",
-            "display": "Native Build & Emulate"
-        },
         "lockUrlPrefix": true,
-        "installStatus": "Not Installed"
+        "installStatus": "Not Installed",
+        "lastBuildSelection": {
+            "value": "nativeBuild",
+            "display": "Native Build"
+        }
     },
-    "xdsVersion": "3.5.0",
-    "xdsBuild": 268,
+    "xdsVersion": "3.5.1",
+    "xdsBuild": 348,
     "schemaVersion": 1,
     "upgradeVersion": 310000000001,
     "framework": "touch24",

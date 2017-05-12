@@ -22,7 +22,10 @@
      *
      */
     "frameworks": {
-        "touch": "touch"
+        "touch": {
+            "path":"touch",
+            "version":"2.4.2.571"
+        }
     },
 
     /**

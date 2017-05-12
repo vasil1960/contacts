@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/vasiltsigov/Code/contacts/cordova/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e2ef2910ab27bad707f7b3e354bf1b0a2139b9ed">
+        <dex dex="/Users/vasiltsigov/Code/contacts/cordova/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_74f817f8be42bf2f38b8d46faf7eeaba0d8029c6.jar" />
+    </item>
+    <item
+        jar="/Users/vasiltsigov/Code/contacts/cordova/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e2ef2910ab27bad707f7b3e354bf1b0a2139b9ed">
+        <dex dex="/Users/vasiltsigov/Code/contacts/cordova/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_74f817f8be42bf2f38b8d46faf7eeaba0d8029c6.jar" />
+    </item>
+
+</items>
